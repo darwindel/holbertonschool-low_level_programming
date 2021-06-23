@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-Mystr[] = "Programming is like building a multilingual puzzle";
+Mystr[] ="\"Programming is like building a multilingual puzzle";
 
 	puts(Mystr);
 
