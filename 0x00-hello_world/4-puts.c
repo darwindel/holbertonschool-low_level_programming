@@ -6,7 +6,7 @@
 * Return: 0 if successful
 */
 int main(void)
-i{
+{
 Mystr[] = "Programming is like building a multilingual puzzle";
 
 	puts(Mystr);
