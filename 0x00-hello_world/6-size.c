@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+5
 /**
 * main - print the data types
 *
