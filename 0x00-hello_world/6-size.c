@@ -1,5 +1,5 @@
 #include <stdio.h>
-5
+
 /**
 * main - print the data types
 *
@@ -11,7 +11,7 @@ int main(void)
 	printf("%lu\n", sizeof(int));
 	printf("%lu\n", sizeof(long int));
 	printf("%lu\n", sizeof(long long int));
-	printf("%lu\n", sizeof(float);
+	printf("%lu\n", sizeof(float));
 	return (0);
 }
 
