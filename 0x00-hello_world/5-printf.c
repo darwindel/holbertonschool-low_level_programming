@@ -3,7 +3,7 @@
 /**
 * main - Print the string using printf
 *
-* Return 0 if successful
+* Return: 0 if successful
 */
 int main(void)
 {
