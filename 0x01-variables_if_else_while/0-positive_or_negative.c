@@ -3,7 +3,9 @@
 #include <stdio.h>
 
 /*
-* main - print the different outputs of n
+* main - print the number is positive, zero or negative
+*
+*Description: using the main function
 *
 * Return: 0 if successful
 */
@@ -14,11 +16,20 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-		printf("is zero");
-	if (n == 0)
-		printf("is zero");
-	if (n < 0)
-		printf("is zero");
+{
+	printf("%i is positive\n", n);
 
+}
+
+	else if (n == 0)
+{
+
+	printf("%i is zero\n", n);
+
+}
+	else if (n < 0)
+{
+	printf("%i is negative\n", n);
+}
 	return (0);
 }
