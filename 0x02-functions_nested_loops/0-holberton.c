@@ -8,13 +8,14 @@
 */
 int main(void)
 {
-	char name[9] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
-	unsigned int c;
+	char c[9] = "Holberton";
+	int i = 0;
 
-	for (c = 0; c < sizeof(name); c++)
+	while (c[i] != '\0')
 {
-_putchar(name[c]);
+	_putchar(c[i]);
+	i++;
 }
-_putchar('\n');
+	_putchar('\n');
 	return (0);
 }
