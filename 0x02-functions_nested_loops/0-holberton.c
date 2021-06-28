@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include "holberton.h"
 /**
 * main - will print holberton using putchar
