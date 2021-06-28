@@ -5,20 +5,15 @@
 * Return: 0 if correct
 */
 int main(void)
-{ 
-	int n;
-	
-	if (n < 0) 
 {
-	putchar('-');
-	n=-n;
-}
-	if (n / 10 != 0)
-{	
-	putchar(n / 10);
-}
+	int n;
 
+	for (n = '0'; n <= '9'; n++)
+{
+	putchar(n);
+
+}
+	putchar('\n');
 	return (0);
-
 }
 
