@@ -19,14 +19,14 @@ void times_table(void)
 	if (n <= 9 && n != 0)
 {
 	if (x <= 9)
-	printf("  %d,", x);
+	printf("  %d", x);
 	else
 	printf(" %d ", x);
 }
 	else
 {
 	if (n == 0)
-	printf("%d ", x);
+	printf("%d,", x);
 	else
 	printf(" %d", x);
 }
