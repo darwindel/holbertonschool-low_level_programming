@@ -16,7 +16,7 @@ void times_table(void)
 {
 	x = i * n;
 
-	if (n <= 9 && n != 0)
+	if (n < 9 && n != 0)
 {
 	if (x <= 9)
 	printf("  %d,", x);
