@@ -9,17 +9,15 @@
 */
 void print_to_98(int n)
 {
-	int x;
+	int x, i;
 
 	if (n < 0)
 	x = 0;
 	else
 	x = n;
 
-	for (int i = x; i <= 98; i++)
+	for (i = x; i <= 98; i++)
 {
-	printf("%d, ", i);
-
 	if (i != 98)
 	printf("%d, ", i);
 	else
