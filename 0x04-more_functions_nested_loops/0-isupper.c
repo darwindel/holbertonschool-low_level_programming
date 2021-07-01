@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "holberton.h"
 /**
 * _isupper - will check for an uppercase character
