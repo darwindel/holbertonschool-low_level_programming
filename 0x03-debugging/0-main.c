@@ -1,3 +1,4 @@
+carrie@ubuntu:/debugging$ cat main.c
 #include "holberton.h"
 
 /**
@@ -14,3 +15,4 @@ int main(void)
 
         return (0);
 }
+carrie@ubuntu:/debugging$
