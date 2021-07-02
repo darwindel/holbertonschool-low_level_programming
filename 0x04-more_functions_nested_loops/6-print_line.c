@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* print_line (int n);
+* print_line - will print a line
 *
 * @n: will go in to print_line
 *
@@ -8,8 +8,7 @@
 */
 void print_line(int n)
 {
-
-	if  (n < 10)
+	for (int i = n; i > 0; i--)
 {
 	_putchar('-');
 }
