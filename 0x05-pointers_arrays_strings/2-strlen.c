@@ -10,9 +10,10 @@
 */
 int _strlen(char *s)
 {
-	for (s = 0; s != (void *)0; ++s)
+	int c;
 
-	printf("Length of Str is %s", s);
-
-	return (0);
+	for (c = 0; s[c] != 0; c++)
+{
+}
+	return (c);
 }
