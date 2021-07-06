@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
-* puts2 - function will print every other character
+* puts2 - function will print half of the string
 *
 * @str: will go into puts2 prototype
 *
