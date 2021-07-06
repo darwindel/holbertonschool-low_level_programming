@@ -1,0 +1,23 @@
+#include <string.h>
+#include <stdio.h>
+#include "holberton.h"
+/**
+* puts2 - function will print every other character
+*
+* @str: will go into puts2 prototype
+*
+* Return: 0 if successful
+*
+*/
+void puts2(char *str)
+{
+
+	int i;
+
+	for (i = 1; i < str[i]; i += 2)
+{
+	_putchar(str[i]);
+}
+	_putchar('\n');
+
+}
