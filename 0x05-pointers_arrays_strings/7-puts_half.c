@@ -9,7 +9,7 @@
 * Return: 0 if successful
 *
 */
-void puts2(char *str)
+void puts_half(char *str)
 {
 
 	int i, a;
