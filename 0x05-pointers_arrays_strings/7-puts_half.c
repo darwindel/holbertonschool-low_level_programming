@@ -12,27 +12,27 @@
 void puts2(char *str)
 {
 
-        int i, a;
-        char l;
+	int i, a;
+	char l;
 
-        for (i = 0; str[i] != 0; i++)
-        {
-        }
-        if (i % 2 == 0)
+	for (i = 0; str[i] != 0; i++)
+	{
+	}
+	if (i % 2 == 0)
 {
-        for ((a = i / 2); str[a] != 0; a++)
+	for ((a = i / 2); str[a] != 0; a++)
 {
-        l = str[a];
-        _putchar(l);
+	l = str[a];
+	_putchar(l);
 }
 }
-        else
+	else
 {
-        for ((a = (i - 1) / 2); str[a] != 0; a++)
+	for ((a = (i - 1) / 2); str[a] != 0; a++)
 {
-        l = str[a];
-        _putchar(l);
+	l = str[a];
+	_putchar(l);
 }
 }
-        _putchar('\n');
+	_putchar('\n');
 }
