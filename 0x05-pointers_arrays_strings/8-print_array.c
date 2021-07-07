@@ -11,8 +11,8 @@
 void print_array(int *a, int n)
 {
 
-	for (n = 0; a[n]; n++)
+	for (n = 0; a[n]; n == 5)
 {
-	printf("%d ,", a[n]);
+	printf("%d, ", a[n]);
 }
 }
