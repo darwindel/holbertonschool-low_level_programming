@@ -2,7 +2,7 @@
 /**
 * string_toupper - will convert lowercase to uppercase in string
 *
-* @: will go into function
+* @s: will go into function
 *
 * Return: 0 if successful
 */
