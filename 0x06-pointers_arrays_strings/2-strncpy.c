@@ -21,10 +21,10 @@ char *_strncpy(char *dest, char *src, int n)
 	a++;
 	if (src[a] == '\0')
 	{
-	break;
+		break;
 	}
 }
 	while (b != n)
-	dest[b++] = '\0';
+		dest[b++] = '\0';
 	return (dest);
 }
