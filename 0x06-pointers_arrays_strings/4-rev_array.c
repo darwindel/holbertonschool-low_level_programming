@@ -3,6 +3,7 @@
 * reverse_array - will reverse an array
 *
 * @a: goes into function
+*
 * @n: goes into function
 *
 * Return: 0 if successful
