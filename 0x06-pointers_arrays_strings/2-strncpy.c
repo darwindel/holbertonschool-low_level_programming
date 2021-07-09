@@ -7,7 +7,7 @@
 * @src: will go into function
 * @n: will go into function
 *
-* Return: Always 0
+* Return: 0 if successful
 */
 char *_strncpy(char *dest, char *src, int n)
 {
