@@ -1,5 +1,5 @@
 #include "holberton.h"
-/*
+/**
 * reverse_array - will reverse an array
 *
 * @a: goes into function
