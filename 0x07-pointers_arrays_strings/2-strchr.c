@@ -6,20 +6,22 @@
 * @s: will go into function
 * @c: will go into function
 *
-* Return: 0 if successful
+* Return: pointer to first ocurrence of character c or null if not found
 */
 char *_strchr(char *s, char c)
 {
-	while (*s != c && *s != '\0')
-{
-	s++;
-}
-	if  (*s == c)
+	while (*s != '\0')
+	{
+		if  (*s == c)
+			return (s);
+		s++;
+	}
+	if (*s == c)
 {
 	return (s);
-}
+}	
 	else
-{
+{	
 	return ("\0");
 }
 }
