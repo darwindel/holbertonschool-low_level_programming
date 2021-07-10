@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "holberton.h"
 /**
 * _strchr - will locate a character in a string
