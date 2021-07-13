@@ -9,7 +9,7 @@
 */
 int primeHelper(int p, int count)
 {
-	if (p <= 1 || p % count == 1)
+	if (p <= 1 || p % count == 0)
 		return (0);
 	else if (p == count)
 		return (1);
