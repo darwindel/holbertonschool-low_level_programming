@@ -17,10 +17,8 @@ int is_prime_number(int n)
 
 	else
 		if (p % n == 0)
-		
+
 		return (1);
-	else
-		{
-	return (is_prime_number (n + 1));
-		}	
+		return (is_prime_number(n + 1));
+
 }
