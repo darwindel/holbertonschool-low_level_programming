@@ -11,15 +11,15 @@ int is_prime_number(int n)
 {
 	int p;
 
-	if (p == n)
-		{
+	if (p == i)
+
 		return (0);
-		}
-	else
-		if (p % n == 0)
-		{
+
+		else 
+	if (n % p == 0)
 		return (1);
-		}
-		return (is_prime_number(n + 1));
+
+	else
+		return (is_prime_number(n + 1, p));
 
 }
