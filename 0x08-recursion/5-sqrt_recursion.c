@@ -11,15 +11,15 @@ int helper(int a, int b)
 {
 
 	if (b * b > a)
-	{
 		return (-1);
-	}
+	
 	else if (b * b == a)
-	{
+	
 		return (b);
 
-	return (helper(a, b + 1));
-	}
+	else
+		return (helper(a, b + 1));
+	
 	return (1);
 }
 
