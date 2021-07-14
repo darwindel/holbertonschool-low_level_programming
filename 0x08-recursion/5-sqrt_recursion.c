@@ -1,23 +1,38 @@
-#include "holberton.h"
+include "holberton.h"
 /**
-* _sqrt_recursion - will return square root of a number
+* helper - will return square root of a number
 *
-* @n: number that will be tested for square root
+* @a: number that will be tested for square root
+* @b: number that will test for square root of a
 *
 * Return: 0 if successful
 */
-int _sqrt_recursion(int n)
+int helper(int a, int b)
 {
 
-
-	if ((n * n) == n)
-	{	
-		return (n);
-	}
-	else if (n < 0)
+	if (b * b > a)
 	{
 		return (-1);
+	}
+	else if (b * b == a)
+	{
+		return (b);
 
-	return (_sqrt_recursion(--n));
-	}	
+	return (helper(a, b + 1));
+	}
+	return (1);
+}
+
+/**
+* _sqrt_recursion - will return natural square root of number
+*
+* @n: the number to return square root
+*
+* Return: the square root
+*/
+int _sqrt_recursion(int n)
+{
+	if (n == 0)
+		return (0);
+	return (helper(n, 1));
 }
