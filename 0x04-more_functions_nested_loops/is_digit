@@ -1,0 +1,17 @@
+#include "holberton.h"
+/**
+* _isdigit - will check for a digit
+*
+* @c: number that will be tested by _isdigit
+*
+* Return: 0 if successful
+*/
+int _isdigit(int c)
+{
+	if (c == 1 || c == 2 || c == 3 || c == 4 || c == 5 || c == 6 || c == 7 || c == 8 || c == 9)
+{
+	return (1);
+}
+	else
+	return (0);
+}

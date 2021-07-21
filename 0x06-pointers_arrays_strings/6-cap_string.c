@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
 * cap_string - will capitalize all words of a string
 *
@@ -18,7 +19,7 @@ char *cap_string(char *n)
 		n[i] = n[i] - 32;
 	continue;
 	}
-	if (n[i] == ' ')
+	if (n[i - 1] == ' ')
 	{
 	++i;
 	if (n[i] >= 'a' && n[i] <= 'z')
