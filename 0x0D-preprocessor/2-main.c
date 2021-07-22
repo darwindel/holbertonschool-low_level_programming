@@ -1,15 +1,13 @@
 #include <stdio.h>
 /**
 * main - will print name of file
-*
-* @argc: count
-* @argv: array vector
-* Return: name of file
+* 
+* Return: 0 if successful
 */
-int main(int argc, char *argv[])
+int main(void)
 {
-	(void)argc;
 
-	printf("%s\n", argv[0]);
+	printf("%s\n", __BASE_FILE__);
+
 	return (0);
 }
