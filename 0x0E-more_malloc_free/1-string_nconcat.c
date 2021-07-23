@@ -1,6 +1,7 @@
 #include "holberton.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 /**
 * string_nconcat - will concatenate two strings
 *
@@ -40,6 +41,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (j = 0; s2[j] && j < n; j++, i++)
 		s3[i] = s2[j];
-		s3[i] = '\0';
+
 	return (s3);
 }
