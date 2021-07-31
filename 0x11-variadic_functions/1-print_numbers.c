@@ -5,7 +5,7 @@
 * print_numbers - function that prints numbers
 *
 * @n: represents the number of arguments
-* @seperator: represents the seperator b/w the numbers
+* @separator: represents the seperator b/w the numbers
 *
 * Return: always 0
 */
