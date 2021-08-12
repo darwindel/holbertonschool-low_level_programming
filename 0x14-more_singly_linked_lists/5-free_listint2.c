@@ -3,7 +3,7 @@
 /**
 * free_listint2 - function that frees listint_t list, sets head to null
 *
-* @head: the begining of list 
+* @head: the begining of list
 *
 * Return: nothing
 */
@@ -16,7 +16,7 @@ void free_listint2(listint_t **head)
 		while (*head)
 		{
 		temp = *head;
-		*head = head->next;
+		*head = temp->next;
 		free(temp);
 		}
 	}
