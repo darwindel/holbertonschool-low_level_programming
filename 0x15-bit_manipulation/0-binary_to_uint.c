@@ -24,4 +24,5 @@ unsigned int binary_to_uint(const char *b)
 			end += B;
 			B = B * 2;
 	}
+		return (end);
 }
